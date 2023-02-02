@@ -1,0 +1,26 @@
+AMI ROM Tool - DMIEDIT
+
+Description :
+	DMI Editor for Windows GUI mode.
+
+Current Label :
+	DMIEDIT_WINGUI-5.13
+
+Release Date :
+
+
+Source Control Location :
+	SS: AptioV;$/AptioV/RomUtils/DmiEdit\DmiEditWinGui;
+
+Reference Document :
+	AMI_AptioV_DMIEDIT_GUI_User_Guide_NDA.pdf
+
+Known Issues :
+
+
+Release Notes:
+==============================================================================
+5.13
+	1.Version number changed for AptioV. Sync DmiEdit 2.13.
+	2.DMIEDIT supports the Type0 offest04 Vendor Name.[EIP 136110]
+	* SMIBIOS Module needs 5.004_SmBios_03 or later version to support functions properly.

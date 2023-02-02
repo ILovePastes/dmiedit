@@ -1,0 +1,40 @@
+[Type 000] -- BIOS Information
+---------------------------------------
+Name				Type		Data
+====				====		====
+Struc. Length           	BYTE    	24 bytes
+Struc. Handle           	WORD    	0000h
+BIOS Vendor             	STRING  	American Megatrends Inc.
+BIOS Version            	STRING  	1.3.3.7
+BIOS Starting Add. Seg. 	WORD    	F000h
+BIOS Release Date       	STRING  	12/25/2021
+BIOS ROM Size           	BYTE    	2560 KB
+BIOS Characteristics    	QWORD   	0000 0001 378B 9880h
+						Bit.07:PCI is Reserved
+						Bit.11:BIOS is Upgradeable(Flash)
+						Bit.12:BIOS shadowing is allowed
+						Bit.15:Boot from CD is supported
+						Bit.16:Selectable Boot is supported
+						Bit.17:BIOS ROM is socketed
+						Bit.19:EDD(Enhanced Disk Drive) Specification is supported
+						Bit.23:Int 13h - 5.25" / 1.2MB Floppy Services are supported
+						Bit.24:Int 13h - 3.5" / 720 KB Floppy Services are supported
+						Bit.25:Int 13h - 3.5" / 2.88 MB Floppy Services are supported
+						Bit.26:Int 5h, Print Screen Service is supported
+						Bit.28:Int 14h,Serial Services are supported
+						Bit.29:Int 17h, Printer Services are supported
+						Bit.32~47:Reserved for BIOS Vendor
+BIOS Char. Extension    	WORD    	0D03h
+						Bit.00:ACPI is supported
+						Bit.01:USB Legacy is supported
+						Bit.08:BIOS Boot Specification is supported
+						Bit.10:Enable Targeted Content Distribution
+						Bit.11:UEFI Specification is supported
+						Bit.13~15:Reserved
+System BIOS Major       	BYTE    	04h
+System BIOS Minor       	BYTE    	06h
+Embedded Controller Firmware Major Release	BYTE    	FFh
+Embedded Controller Firmware Minor Release	BYTE    	FFh
+==============================================================================
+
+
